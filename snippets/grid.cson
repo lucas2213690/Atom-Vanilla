@@ -1,0 +1,33 @@
+'.text.html':
+
+  'Row':
+    'prefix': 'row'
+    'body': """
+    <div class="box">
+      $0
+    </div>
+    """
+
+  'Row no-border':
+    'prefix':'row no'
+    'body': """
+    <div class="row no-border">
+      $0
+    </div>
+    """
+
+  'Box':
+    'prefix': 'bo'
+    'body': """
+    <div class="box">
+      $0
+    </div>
+    """
+
+  'Columns':
+    'prefix': '-col'
+    'body': """
+    <div class="${1:one-twelve}-col box">
+      $0
+    </div>
+    """

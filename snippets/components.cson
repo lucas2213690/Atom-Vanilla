@@ -1,0 +1,201 @@
+".text.html":
+
+  'Button Primary':
+    'prefix': 'button'
+    'body': """
+    <button type="button" class="button--primary" href="#"> $0 </button>
+    """
+
+  'Primary Link':
+    'prefix': 'primary-link'
+    'body': """
+    <a class="button--primary" href="${1:#}"> $0 </a>
+    """
+
+  'Button External':
+    'prefix': 'button-external'
+    'body': """
+    <button type="button" class="button--primary" href="${1:#}"><span class="external">External button</span></button>
+    """
+
+  'Button Secondary':
+    'prefix': 'button-secondary'
+    'body': """
+    <button class="button--secondary" href="${1:#}"> $0 </button>
+    """
+
+  'Secondary Link':
+    'prefix': 'secondary-link'
+    'body': """
+    <a class="button--secondary" href="${1:#}"> $0 </a>
+    """
+
+  'External Secondary Button':
+    'prefix': 'button-external-secondary'
+    'body': """
+    <a class="button--secondary" href="${1:#}"><span class="external"> $2 </span></a>
+    """
+
+  'Text Link':
+    'prefix': 'link'
+    'body': """
+    <a href="${1:#}"> $0 </a>
+    """
+
+  'Label Information':
+    'prefix': 'label-information'
+    'body': """
+    <label for="$1" class="has-information"> $0 </label>
+    """
+
+  'Label Success':
+    'prefix': 'label-success'
+    'body': """
+    <label for="$1" class="has-success"> $0 </label>
+    """
+
+  'Label Warning':
+    'prefix': 'label-warning'
+    'body': """
+    <label for="$1" class="has-warning"> $0 </label>
+    """
+
+  'Label Error':
+    'prefix': 'label-error'
+    'body': """
+    <label for="$1" class="has-error"> $0 </label>
+    """
+
+  'Blockquotes':
+    'prefix': 'blockquotes'
+    'body': """
+    <blockquote>
+        <p><span>“</span> ${1: Ubuntu is an ancient African word}. <span>”</span></p>
+        <p><cite>Canonical</cite></p>
+    </blockquote>
+    """
+
+  'Pull-quote':
+    'prefix': 'p-quote'
+    'body': """
+    <blockquote class="pull-quote">
+        <p><span>“</span> ${1: Ubuntu is an ancient African word.} <span>”</span></p>
+        <p><cite>Canonical</cite></p>
+    </blockquote>
+    """
+
+  'Row-quote':
+    'prefix': 'r-quote'
+    'body': """
+    <div class="row row-quote">
+        <h4>Row quote</h4>
+        <blockquote class="pull-quote">
+            <p><span>“</span> ${1: Ubuntu is an ancient African word.} <span>”</span></p>
+            <p><cite>Canonical</cite></p>
+        </blockquote>
+    </div>
+    """
+
+  'Inline Logo':
+    'prefix': 'inline-logo'
+    'body': """
+    <li class="inline-logos__item">
+        <img class="inline-logos__image" src="$1" alt="$2">
+    </li>
+    """
+
+  'Stepped List':
+    'prefix': 'list-step'
+    'body': """
+    <div class="row">
+        <h3>List Title</h3>
+            <ol class="list-step">
+                <li class="list-step__item ${1: eight-col}">
+                    <h3 class="list-step__title">
+                        <span class="list-step__bullet">1</span>
+                        First step
+                    </h3>
+                    <p>Lorem ipsum dolor.</p>
+                  </li>
+
+                  <li class="list-step__item ${2: eight-col}">
+                      <h3 class="list-step__title">
+                          <span class="list-step__bullet">2</span>
+                            Second step
+                      </h3>
+                      <p>Lorem ipsum dolor.</p>
+                  </li>
+    </div>
+    """
+
+  'Tables':
+    'prefix': 'table'
+    'body': """
+    <h2>Table Title</h2>
+              <div class="${1: twelve-col}">
+                  <table>
+                      <thead>
+                          <tr>
+                              <th></th>
+                              <th scope="col">Header</th>
+                              <th scope="col">Header</th>
+                              <th scope="col">Header</th>
+                          </tr>
+                      </thead>
+                      <tfoot>
+                          <tr>
+                              <td></td>
+                              <td>Footer</td>
+                              <td>Footer</td>
+                              <td>Footer</td>
+                          </tr>
+                      </tfoot>
+                      <tbody>
+                          <tr>
+                              <th scope="row">Header row</th>
+                              <td>Table cell</td>
+                              <td>Table cell</td>
+                              <td>Table cell</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Header row</th>
+                              <td>Table cell</td>
+                              <td>Table cell</td>
+                              <td>Table cell</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Header row</th>
+                              <td>Table cell</td>
+                              <td>Table cell</td>
+                              <td>Table cell</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              """
+
+  'Row-Hero':
+    'prefix': 'hero'
+    'body': """
+    <div class="row row-hero">
+      <h2>Page hero</h2>
+        <div class="${1: six-col}">
+          <h1>This is a hero title</h1>
+            <p class="intro">Here you can have a subtitle or short introduction to the page.</p>
+            <p><a class="link-cta-ubuntu">Main button</a></p>
+        </div>
+      <div class="six-col last-col">
+        <img src="$2" alt="" />
+      </div>
+    </div>
+    """
+
+  'Video Container':
+    'prefix': 'video-container'
+    'body': """
+    <div class="${1 :twelve-col}">
+      <div class="video-container">
+        <iframe width="442" height="249" src="$2" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+    </div>
+    """

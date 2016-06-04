@@ -1,0 +1,19 @@
+
+
+{
+  "name": "Atom-Vanilla",
+  "version": "1.0.0",
+  "description": "Snippets and Auto-completate to Ubuntu Vanilla frameborder",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeremyHeleine/language-mylanguage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JeremyHeleine/language-mylanguage/issues"
+  },
+  "license": "MIT"
+}
