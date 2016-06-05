@@ -31,6 +31,7 @@ Key Features
 ### Label
 
 | **keyword** | **description** |
+|--------|---------|
 |     label-info   |  Create a label information    |
 |     label-su   |  Create a label success     |
 |     label-wa   |  Create a label warning     |
@@ -39,6 +40,7 @@ Key Features
 ### Quote
 
 | **keyword** | **description** |
+|--------|---------|
 |     blockquote   |  Create a blockquote with title, phrase, author   |
 |     pull-quote   |  Create a pull-quote   |
 |     blockquote   |  Create a blockquote with title, phrase, author   |
@@ -46,16 +48,19 @@ Key Features
 ### List
 
 | **keyword** | **description** |
+|--------|---------|
 |     steped-list   |  Create a lists with title and two example steps   |
 
 ### Table
 
 | **keyword** | **description** |
+|--------|---------|
 |     table   |  Create a table 3x3 with title   |
 
 ### Media
 
 | **keyword** | **description** |
+|--------|---------|
 |     video  |  Create a div video-container   |
 
 ## Autocomplete
