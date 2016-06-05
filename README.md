@@ -1,12 +1,12 @@
 # Vanilla 0.0.77 Support for Atom
 
-Provides [Vailla 0.0.77](http://ubuntudesign.github.io/vanilla-framework/) classes, snippets and autocompletation
-[Vanilla Documentation](http://ubuntudesign.github.io/vanilla-framework/docs/)
+Provides [Vailla 0.0.77](http://ubuntudesign.github.io/vanilla-framework/) classes, snippets and autocompletation, see
+[Vanilla Documentation](http://ubuntudesign.github.io/vanilla-framework/docs/) to
 
 Key Features
 
-+ Support autocompletation of all CSS classes
-+ Snippets for important components
++ Support autocompletation of all CSS Vanilla's classes
++ Snippets for important components like table, blockquotes, lists and media
 
 
 ## Snippets
@@ -14,6 +14,7 @@ Key Features
 ### Grid
 
 | **keyword** | **description** |
+|--------|---------|
 |     hero   |  Create a row-hero with title, subtitle, img   |
 |     r-quote   |  Create a row with class row-quote to contain quotes   |
 
