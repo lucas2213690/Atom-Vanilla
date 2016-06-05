@@ -30,12 +30,6 @@
     <a class="button--secondary" href="${1:#}"> $0 </a>
     """
 
-  'External Secondary Button':
-    'prefix': 'button-external-secondary'
-    'body': """
-    <a class="button--secondary" href="${1:#}"><span class="external"> $2 </span></a>
-    """
-
   'Text Link':
     'prefix': 'link'
     'body': """
@@ -43,25 +37,25 @@
     """
 
   'Label Information':
-    'prefix': 'label-information'
+    'prefix': 'label-info'
     'body': """
     <label for="$1" class="has-information"> $0 </label>
     """
 
   'Label Success':
-    'prefix': 'label-success'
+    'prefix': 'label-su'
     'body': """
     <label for="$1" class="has-success"> $0 </label>
     """
 
   'Label Warning':
-    'prefix': 'label-warning'
+    'prefix': 'label-wa'
     'body': """
     <label for="$1" class="has-warning"> $0 </label>
     """
 
   'Label Error':
-    'prefix': 'label-error'
+    'prefix': 'label-er'
     'body': """
     <label for="$1" class="has-error"> $0 </label>
     """
@@ -88,11 +82,7 @@
     'prefix': 'r-quote'
     'body': """
     <div class="row row-quote">
-        <h4>Row quote</h4>
-        <blockquote class="pull-quote">
-            <p><span>“</span> ${1: Ubuntu is an ancient African word.} <span>”</span></p>
-            <p><cite>Canonical</cite></p>
-        </blockquote>
+
     </div>
     """
 

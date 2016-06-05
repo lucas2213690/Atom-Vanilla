@@ -10,11 +10,43 @@ Key Features
 
 ## Snippets
 
+### Button
+
+| **keyword** | **description** |
+|--------|---------|
+|  button      |   Create a simple button primary        |
+|    primary-link    |  Create a simple button link       |
+|     button-external   | Create a button with indication to link external       |
+|     button-secondary   | Create a simple button secondary         |
+|     secondary-link   |  Create a secondary button link     |
+|     link   |  Simple link     |
+
+### Label
+
+|     label-info   |  Create a label information    |
+|     label-su   |  Create a label success     |
+|     label-wa   |  Create a label warning     |
+|     label-er   |  Create a label error     |
+
+### Quote
+
+|     r-quote   |  Create a row with class row-quote to contain quotes   |
+|     blockquote   |  Create a blockquote with title, phrase, author   |
+|     pull-quote   |  Create a pull-quote   |
+|     blockquote   |  Create a blockquote with title, phrase, author   |
+
+### List
+
+|     steped-list   |  Create a lists with title and two example steps   |
+
+
+
+
 
 
 ## Autocomplete
 
-### Grid 
+### Grid
 
 | **keyword** |
 |--------|
@@ -30,7 +62,7 @@ Key Features
 |     four-col   |
 |     three-col   |
 |     two-col   |
-|     one-col   | 
+|     one-col   |
 |     last-col   |
 |     prepend-two   |
 |     append-five   |
@@ -41,7 +73,3 @@ Key Features
 |     grid-list__item   |
 |     grid-list__img   |
 |     row-grey   |
-
-
-
-
