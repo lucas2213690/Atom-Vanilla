@@ -97,25 +97,23 @@
   'Stepped List':
     'prefix': 'list-step'
     'body': """
-    <div class="row">
-        <h3>List Title</h3>
-            <ol class="list-step">
-                <li class="list-step__item ${1: eight-col}">
+      <h3>List Title</h3>
+          <ol class="list-step">
+              <li class="list-step__item ${1: eight-col}">
+                  <h3 class="list-step__title">
+                      <span class="list-step__bullet">1</span>
+                      First step
+                  </h3>
+                  <p>Lorem ipsum dolor.</p>
+                </li>
+
+                <li class="list-step__item ${2: eight-col}">
                     <h3 class="list-step__title">
-                        <span class="list-step__bullet">1</span>
-                        First step
+                        <span class="list-step__bullet">2</span>
+                          Second step
                     </h3>
                     <p>Lorem ipsum dolor.</p>
-                  </li>
-
-                  <li class="list-step__item ${2: eight-col}">
-                      <h3 class="list-step__title">
-                          <span class="list-step__bullet">2</span>
-                            Second step
-                      </h3>
-                      <p>Lorem ipsum dolor.</p>
-                  </li>
-    </div>
+                </li>
     """
 
   'Tables':
@@ -181,11 +179,11 @@
     """
 
   'Video Container':
-    'prefix': 'video-container'
+    'prefix': 'video'
     'body': """
     <div class="${1 :twelve-col}">
       <div class="video-container">
-        <iframe width="442" height="249" src="$2" frameborder="0" allowfullscreen=""></iframe>
+        <iframe width="" height="" src="$2" frameborder="0" allowfullscreen=""></iframe>
       </div>
     </div>
     """

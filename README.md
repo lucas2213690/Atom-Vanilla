@@ -1,6 +1,7 @@
 # Vanilla 0.0.77 Support for Atom
 
-Provides Vailla 0.0.77 classes, snippets and autocompletation
+Provides [Vailla 0.0.77](http://ubuntudesign.github.io/vanilla-framework/) classes, snippets and autocompletation
+[Vanilla Documentation](http://ubuntudesign.github.io/vanilla-framework/docs/)
 
 Key Features
 
@@ -9,6 +10,12 @@ Key Features
 
 
 ## Snippets
+
+### Grid
+
+| **keyword** | **description** |
+|     hero   |  Create a row-hero with title, subtitle, img   |
+|     r-quote   |  Create a row with class row-quote to contain quotes   |
 
 ### Button
 
@@ -23,6 +30,7 @@ Key Features
 
 ### Label
 
+| **keyword** | **description** |
 |     label-info   |  Create a label information    |
 |     label-su   |  Create a label success     |
 |     label-wa   |  Create a label warning     |
@@ -30,19 +38,25 @@ Key Features
 
 ### Quote
 
-|     r-quote   |  Create a row with class row-quote to contain quotes   |
+| **keyword** | **description** |
 |     blockquote   |  Create a blockquote with title, phrase, author   |
 |     pull-quote   |  Create a pull-quote   |
 |     blockquote   |  Create a blockquote with title, phrase, author   |
 
 ### List
 
+| **keyword** | **description** |
 |     steped-list   |  Create a lists with title and two example steps   |
 
+### Table
 
+| **keyword** | **description** |
+|     table   |  Create a table 3x3 with title   |
 
+### Media
 
-
+| **keyword** | **description** |
+|     video  |  Create a div video-container   |
 
 ## Autocomplete
 
@@ -73,3 +87,52 @@ Key Features
 |     grid-list__item   |
 |     grid-list__img   |
 |     row-grey   |
+| med-six-col |
+|     equal-height--vertical-divider |
+|   equal-height--vertical-divider__item |
+| equal-height__item |
+| equal-height__align-vertically |
+| equal-height |
+
+### Label
+
+| **keyword** |
+|--------|
+|     has-information   |
+|     has-warning   |
+|     has-success   |
+|     has-error   |
+|     two-col   |
+
+### List
+
+| **keyword** |
+|--------|
+| list-step |
+| list-step__item |
+| list-step__title |
+| list-step__bullet |
+| list-ticks |
+| inline-list |
+
+### Helpers
+
+| **keyword** |
+|--------|
+|     left   |
+|     right   |
+|     no-padding-bottom   |
+|     link-top   |
+|     clear   |
+|     align-center |
+| no-border |
+| no-bullets |
+| last-item  |
+| no-margin-bottom |
+| accessibility-aid |
+| caps |
+| touch-border |
+| priority-0 |
+| for-medium |
+| for-small |
+| external |

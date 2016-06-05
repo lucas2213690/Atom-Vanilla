@@ -7,12 +7,11 @@
       'button-external'
       'button-secondary'
       'secondary-link'
-      'button-external-secondary'
       'link'
-      'label-information'
-      'label-success'
-      'label-warning'
-      'label-error'
+      'label-info'
+      'label-su'
+      'label-wa'
+      'label-er'
       'blockquotes'
       'p-quote'
       'r-quote'
@@ -20,7 +19,7 @@
       'list-step'
       'table'
       'hero'
-      'video-container'
+      'video'
 
       #Grid System
 
@@ -47,6 +46,7 @@
       'grid-list__item'
       'grid-list__img'
       'row-grey'
+      'med-six-col'
 
 
       #Classes
@@ -86,9 +86,6 @@
       'for-medium'
       'for-small'
       'global'
-      'clearfix'
-      'no-global'
-      'legal'
-      'has-cookie'
-      'clear'
+      'caps'
+      'touch-border'
     ]
